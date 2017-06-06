@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:weightSum="1">
+
+
+    <!-- TODO: EditText UI Control for editTextUserName -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUserName"
+        android:hint="@string/username_edittext"
+        android:inputType="text"/>
+
+    <!-- TODO: EditText UI Control for editTextPassword -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"
+        android:hint="@string/password_edittext"
+        android:inputType="textPassword"/>
+
+    <!-- TODO: EditText UI Control for editTextConfirmPassword -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextConfirmPassword"
+        android:hint="@string/confirmpassword_edittext"
+        android:inputType="textPassword"/>
+
+    <!-- TODO: EditText UI Control for Latitude -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Latitude"
+        android:hint="@string/latitude_edittext"/>
+
+    <!-- TODO: EditText UI Control for Longitude-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Longitude"
+        android:hint="@string/longitude_edittext"/>
+
+    <!-- TODO: Button UI Control for buttonCreateAccount -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCreateAccount"
+        android:padding="16dp"
+        android:text="@string/buttonCreateAccount"/>
+
+    <!-- TODO: Button UI Control for Home_Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Home_Button"
+        android:padding="16dp"
+        android:text="@string/Home_Button"/>
+
+</LinearLayout>
